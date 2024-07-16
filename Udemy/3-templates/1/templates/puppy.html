@@ -2,4 +2,6 @@
 
 {% block block_1%}
 <h1>Puppy name is {{name |capitalize }}</h1>
+<a href="{{url_for('static',filename='dog.jpg')}}">Dog Image</a>
+
 {% endblock %}
